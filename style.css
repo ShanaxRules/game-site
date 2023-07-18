@@ -896,7 +896,7 @@ nav {
     /* new section begins here */
     .action {
         width: 576px;
-        height: 427px;
+        height: 260px;
         margin-top: 120px;
         background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
         display: flex;
@@ -969,6 +969,7 @@ nav {
     }
 
     .ami-hidden{
+        padding-top:50px;
         display:grid;
         grid-template-columns: repeat(3,1fr);
         margin-right:150px;
