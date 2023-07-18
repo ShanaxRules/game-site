@@ -459,6 +459,17 @@ nav {
     color:#F948B2;
 }
 
+.filtu{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+}
+
 
 
 /* main program completed */
@@ -554,38 +565,68 @@ nav {
         gap: 10px;
         flex-direction: column;
     }
+
+    /* banner starts here */
     
     
     .banner {
-        width: 1920px;
-        height: 680px;
-        background-image: url(images/Group\ 14.png);
+        width: 500px;
+        height: 980px;
+        margin-bottom:30px;
+        
         background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top:180px;
+        
+    }
+
+    .banner-2 img{
+        width:400px;
+        height:500px;
     }
     
     .banner-1 {
         margin: 0px;
-        padding-top: 148px;
+        padding-top: 19px;
+        background-image: url(images/Group\ 14.png);
+        height:1000px;
+        background-repeat: no-repeat;
+        text-align: center;
     }
     
     .banner-1 h2 {
         color: #0B0223;
     
-    
-        font-size: 48px;
+        text-align: center;
+        font-size: 28px;
         font-style: normal;
         font-weight: 600;
-        margin: 0px;
+        padding-right:80px;
+        
     
     
+    }
+
+    .titli{
+        text-align:center;
+        
+        padding-left:140px;
+    }
+
+    .firster{
+        margin-top:30px;
     }
     
     .banner-1 h1 {
     
     
-        font-size: 95px;
+        font-size: 55px;
         font-style: normal;
         font-weight: 800;
+        text-align:center;
+        padding-right:70px;
     
         text-transform: uppercase;
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -600,122 +641,164 @@ nav {
         color: #534C64;
         text-align: center;
     
-        font-size: 20px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
     
         text-transform: lowercase;
+        
     }
     
     .btn-primary {
         display: inline-flex;
         padding: 21px 40px;
-        align-items: flex-start;
-        gap: 10px;
+        
+        gap: 5px;
         border-radius: 48px;
         background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
         border: none;
         color: #FFF;
     
-        font-size: 20px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 600;
     
         text-transform: uppercase;
+        margin-left:0%;
     }
     
     .btn-secondary {
         display: inline-flex;
         padding: 21px 40px;
-        align-items: flex-start;
+        
         gap: 10px;
         border-radius: 48px;
         background: #4EC5F7;
         border: none;
         color: #FFF;
     
-        font-size: 20px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 600;
     
         text-transform: uppercase;
     }
     
-    .banner {
-        display: flex;
-        justify-content: center;
-        gap: 100px;
+    .buttoner{
+        margin-top:20px;
+        margin-right:10px;
+        margin-left:80px;
+        gap:10px;
     }
     
+/* 3rd section begins here */
+
+    .filtu{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+
     .funny {
         margin-top: 120px;
-        width: 1920px;
-        height: 700px;
+        width: 650px;
+        height: 2000px;
+        margin-left:30px;
     }
     
     .funny-header {
         color: #0B0223;
-        text-align: center;
-        font-size: 48px;
+        text-align: left;
+        font-size: 28px;
         font-style: normal;
         font-weight: 700;
+        
     
     }
     
     .funny-text {
         color: #534C64;
         text-align: center;
-        font-size: 18px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
+        word-wrap: break-word;
+        margin-right:270px;
     
     }
     
     .sub-game-title {
         color: #534C64;
-    
-        font-size: 20px;
+        padding-left:80px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 500;
     
     
         /* 150% */
     }
+
+    .bitun{
+        margin-top:20px;
+    }
     
     .video {
         display: flex;
         justify-content: center;
         gap: 24px;
+        flex-direction: column;
     }
+
+    /* new begins here */
     
     .instant {
-        width: 1920px;
-        height: 700px;
+        width: 650px;
+        height: 1500px;
     }
     
     .pinku {
     
     
-        font-size: 48px;
+        font-size: 30px;
         font-style: normal;
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 700;
-        margin: 0px;
+        margin-top:250px;
+        margin-bottom:0px;
+        margin-right:250px;
+       
     
         /* 125% */
+    }
+
+    .image-checker>img{
+        width:370px;
+        height:300px;
+        margin-right:180px;
+        margin-top:-200px;
+        
+        
     }
     
     
     .others {
+        text-align: center;
         color: #0B0223;
         font-family: Work Sans;
-        font-size: 48px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 700;
         margin: 0px;
+        margin-right:210px;
     
     }
     
@@ -723,9 +806,10 @@ nav {
         color: #534C64;
     
     
-        font-size: 18px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
+        margin-right:230px;
     
         /* 166.667% */
     }
@@ -736,17 +820,22 @@ nav {
         align-items: center;
         gap: 265px;
         text-align: right;
+        flex-direction: column;
     }
     
     
     .imager {
-        margin: 0px;
+        width:150px;
+        height:150px;
+        
         border-radius: 8px;
-        border: 10px solid #FFF;
+        
         background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
-        position: relative;
-        left: 800px;
-        top: -300px;
+        text-align: left;
+        position:relative;
+        left:5px;
+        top:-100px;
+
     }
     
     
@@ -917,7 +1006,8 @@ nav {
     }
     
     .sustain:hover>.hovereffect {
-        display: flex !important;
+        /* ekhane flex silo */
+        display: none !important; 
     }
     
     .sustain:hover .bitun {
